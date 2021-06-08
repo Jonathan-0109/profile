@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&family=Montserrat:wght@100;700&family=Poppins:wght@700&display=swap');
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Mate SC', serif;
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(240,180,180);
+}
+
+h1, h2 {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+  color:  293b5f;
+}
+
+h2 {
+  color:  47597e;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: 293b5f;
+}
+
+a:hover {
+  color: 161616;
+}
+
+.card-white {
+  width: 500px;
+  margin: 24px auto;
+  background: white;                         /* White background */
+  padding: 30px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  text-align: center ;
+  border-radius 8px;
+}
+
+.img-circle {
+  width: 100;
+  border-radius: 50%;
+}
+
+.btn-blue {
+  background-color: 47597e;
+  color:  white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+
+}
+
+.btn-blue:hover {
+   background-color: 161616;
+   color:  white;
+   box-shadow: 0 20px 30px rgba(0,0,0,.1);
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.social-icon {
+  font-size: 32px;
+  margin: 8px 40px;
+}
+
+
+/*
+Am Ende noch Farben ändern, auch für hover.
+font-size and line-height background-color */
